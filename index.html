@@ -22,7 +22,7 @@
             <ul>
                 <li><a href="#new">What's New</a></li>
                 <li><a href="#company">About Us</a></li>
-                <li><a href="#service">Works</a></li>
+                <li><a href="#works">Works</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -61,64 +61,26 @@
                         <td>毎週火・木 15:30~16:50</td>
                     </tr>
                 </table>
-
-                <h2>当テンプレートの使い方</h2>
-                <p><strong class="color1">■ロゴ画像のalt指定と、ロゴ画像本体も変更しましょう。</strong><br>
-                    html側に<br>
-                    <span class="look">&lt;img src=&quot;images/logo.png&quot; alt=&quot;SAMPLE
-                        COMPANY&quot;&gt;</span><br>
-                    となっている箇所があるので、ここのalt指定(SAMPLE COMPANY)もあなたのサイト名に変更しましょう。
-                </p>
-                <p>ロゴ画像本体については、baseフォルダに文字なしの土台画像「logo.png」が入っているので、画像ソフトなど使ってあなたのサイト名を入れて、imagesフォルダに上書きしましょう。画像ソフトを使った画像の加工方法も<a
-                        href="https://template-party.com/file/" target="_blank">初心者向けマニュアル</a>で公開中です。<br>
-                    このロゴ画像、HPで見るサイズよりかなり大きく感じると思いますが、高解像度の端末でピンボケさせない為に適当に大きくしてあります。</p>
-                <p>HPで見る場合のロゴのサイズは、cssフォルダのstyle.cssの<br>
-                    <spna class="look">/*ヘッダー（ロゴが入った最上段のブロック）</spna><br>
-                    のブロックで設定されている、<br>
-                    <span class="look">header #logo img</span><br>
-                    にあるwidthの値で変更可能です。css下の方に小さな端末用の設定がある場合もあるのでそちらも確認して下さい。
-                </p>
-
-                <h3>最上部の大きなメイン画像を入れ替えたい場合（※tp_beginner6_photo1〜tp_beginner6_photo4の場合）</h3>
-                <p>入れ替えたい画像を用意し、画像ファイル名を「mainimg.jpg」にしてimagesフォルダに上書きして下さい。閲覧する画面サイズによって自動で切り取られますので、切り取られた際に配置がおかしく見えないような画像を使って下さい。
-                </p>
-                <p>もし、画像の拡張子が「.jpg」になっていない場合、cssフォルダのstyle.cssの、<br>
-                    <span class="look">header {</span><br>
-                    の中にある、<br>
-                    <span class="look">background: url(../images/mainimg.jpg)〜〜</span><br>
-                    部分の「mainimg.jpg」部分を直接変更して下さい。
-                </p>
-
-                <h3>リストタグを使いたい場合の注意点</h3>
-                <p>そのままではリストマークが出ませんので、リストタグを使う場合は以下のようなスタイルを追加して下さい。</p>
-                <p>&lt;ul <span class="color1">class=&quot;disc&quot;</span>&gt;<br>
-                    &lt;li&gt;リストタグ&lt;/li&gt;<br>
-                    &lt;li&gt;リストタグ&lt;/li&gt;<br>
-                    &lt;li&gt;リストタグ&lt;/li&gt;<br>
-                    &lt;/ul&gt;
-                </p>
-                <p>↓出力例</p>
-                <ul class="disc">
-                    <li>リストタグ</li>
-                    <li>リストタグ</li>
-                    <li>リストタグ</li>
-                </ul>
-                <ol>
-                    <li>olタグはそのままででます。</li>
-                    <li>olタグはそのままででます。</li>
-                    <li>olタグはそのままででます。</li>
-                    <li>olタグはそのままででます。</li>
-                </ol>
             </section>
 
             <!-- Works -->
-            <section id="service">
+            <section id="works">
                 <h2>Works</h2>
 
                 <div class="list">
-                    <img src="images/sample1.jpg" alt="">
-                    <h4>ここの見出しのサイズは、cssフォルダのstyle.cssの「.list h4」で変更できます。</h4>
-                    <p>左の画像の幅もstyle.cssの「.list img」のwidthの数字で変更できます。</p>
+                    <a href="https://scratch.mit.edu/projects/708634287/" target="_blank" rel="noopener noreferrer">
+                        <img src="images/works/当番決め.png" alt="image of '当番決め'"></a>
+
+                    <h4>当番決め</h4>
+                    <p>当番を決めるのに役立ててください。 - created by saku1217</p>
+                </div>
+
+                <div class="list">
+                    <a href="https://scratch.mit.edu/projects/717933243/" target="_blank" rel="noopener noreferrer">
+                        <img src="images/works/当番決め(改良版).png" alt="image of '当番決め～改良版～'"></a>
+
+                    <h4>当番決め～改良版～</h4>
+                    <p>当番を決めるのに役立ててください。 - created by saku1217</p>
                 </div>
             </section>
 
